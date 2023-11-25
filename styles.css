@@ -4,7 +4,7 @@
 --thesampekolor-color: white;
 
 .logo-style {
-        color:  #4D5AE5;
+        color:  #4d5ae5;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 800;
@@ -30,14 +30,14 @@
         /* 150% */
         letter-spacing: 0.02em;
 }
-.contact-color {color: #434455;}
+.contact-color {color: #434455}
 
 .contact-color:hover {color: #404bbf;}
 .contact-color:focus {color: #404bbf;}
 .contact-color:active {color: #404bbf;}
 
 /*This is Section 1*/
-.first-section {
+.first-section-header {
     color: #FFF;
         text-align: center;
     
@@ -50,10 +50,10 @@
         letter-spacing: 0.07em;
 }
 .first-section {
-    background-color: #2E2F42;
+    background-color: #2e2f42;
 }
-.first-section {
-    color: #FFF;
+.first-section-button {
+        color: #FFF;
     
         /* Button Text */
         font-family: "Roboto", sans-serif;
@@ -62,7 +62,7 @@
         line-height: 1.5em;
         /* 150% */
         letter-spacing: 0.04em;
-        background-color: #4D5AE5;
+        background-color: #4d5ae5;
     }
     .first-section-button:hover, :focus {
         color: #404bbf;
@@ -72,7 +72,7 @@
     }
     /*This is Section 2*/
     .second-section-header {
-        color: #2E2F42;
+        color: #2e2f42;
         
             /* Header 3 */
             font-family: "Roboto", sans-serif;
@@ -95,7 +95,7 @@
     }
     /* This is section 3*/
     .third-section-header {
-        color: #2E2F42;
+        color: #2e2f42;
             text-align: center;
         
             /* Header 2 */
@@ -110,10 +110,10 @@
     
     /*This is Section 4 */
     .fourth-section-header {
-        background: #F4F4FD;
+        background: #f4f4fd;
     }
     .fourth-section-header {
-            color: #2E2F42;
+            color: #2e2f42;
             text-align: center;
         
             /* Header 2 */
@@ -127,10 +127,10 @@
             text-transform: capitalize;
     }
     .teammember-bgcolor {
-        background-color: #FFFFFF;
+        background-color: #ffffff;
     }
     .teammember-name {
-            color: #2E2F42;
+            color: #2e2f42;
             text-align: center;
         
             /* Header 3 */
@@ -157,10 +157,10 @@
     }
     /* Styles for Footer*/
   .footer-style {
-    background: #2E2F42;
+    background: #2e2f42;
   }  
   .logo-style {
-      color: #4D5AE5;
+      color: #4d5ae5;
       font-family: "Raleway", sans-serif;
       font-size: 18px;
       font-weight: 800;
@@ -170,14 +170,14 @@
   }
 
   .inside-logo {
-      color: #2E2F42;
+      color: #2e2f42;
   }
 
   .link {
       text-decoration: none;
   }
   .footer-paragraph {
-        color: #F4F4FD;
+        color: #f4f4fd;
     
         /* Body */
         font-family:"Roboto",
