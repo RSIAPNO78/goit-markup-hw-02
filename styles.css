@@ -154,27 +154,26 @@
     }
     /* Styles for Footer*/
   .footer-style {
-    background: #2E2F42;
+    background: #2e2f42;
   }  
   .logo-style {
-      color: #4D5AE5;
-      font-family: "Raleway", sans-serif;
+      color: #4d5ae5;
+      font-family: Raleway;
       font-size: 18px;
       font-weight: 800;
-      line-height: 1.31em;
+      line-height: 1.17em;
       letter-spacing: 0.03em;
-      text-transform: uppercase;
   }
 
   .inside-logo {
-      color: #F4F4FD;
+      color: #f4f4fd;
   }
 
   .link {
-      text-decoration: none;
+      text-decoration: underline;
   }
   .footer-paragraph {
-        color: #F4F4FD;
+        color: #f4f4fd;
     
         /* Body */
         font-family:Roboto;
