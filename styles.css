@@ -1,8 +1,7 @@
-:root
-
---thebodytagcolor-color: #434455;
---thesampekolor-color: white;
-
+:root {
+    background: #FFFFFF;
+    --mytextcolor-color: #434455;
+}
 .logo-style {
         color:  #4d5ae5;
         font-family: "Raleway", sans-serif;
@@ -20,17 +19,19 @@
 }
 
 .address-style {
-    color: #434455;
+    color: var(--mytextcolor-color);
     
         /* Body */
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
+        font-family: Roboto;
+        font-size: 12px;
         font-weight: 400;
-        line-height: 1.5em;
-        /* 150% */
-        letter-spacing: 0.02em;
+        line-height: 1em;
+        letter-spacing: 0.04em;
+        text-decoration: underline;
 }
-.contact-color {color: #434455}
+.contact-color {
+    color: var(--mytextcolor-color);
+}
 
 .contact-color:hover {color: #404bbf;}
 .contact-color:focus {color: #404bbf;}
@@ -38,16 +39,15 @@
 
 /*This is Section 1*/
 .first-section-header {
-    color: #FFF;
+    color: #FFFFFF;
         text-align: center;
     
         /* Header 1 */
-        font-family: "Roboto", sans-serif;
+        font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1.7em;
-        /* 107.143% */
-        letter-spacing: 0.07em;
+        line-height: 3.75em;
+        letter-spacing: 0.02em;
 }
 .first-section {
     background-color: #2e2f42;
@@ -56,7 +56,7 @@
         color: #FFF;
     
         /* Button Text */
-        font-family: "Roboto", sans-serif;
+        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5em;
@@ -75,7 +75,7 @@
         color: #2e2f42;
         
             /* Header 3 */
-            font-family: "Roboto", sans-serif;
+            font-family: Roboto;
             font-size: 20px;
             font-weight: 500;
             line-height: 1.2em;
@@ -83,10 +83,10 @@
             letter-spacing: 0.02em;
     }
     .second-section-paragraph {
-        color: #434455;
+        color: var(--mytextcolor-color);
         
             /* Body */
-            font-family: "Roboto"; sans-serif;
+            font-family: Roboto;
             font-size: 16px;
             font-weight: 400;
             line-height: 1.5em;
@@ -99,12 +99,12 @@
             text-align: center;
         
             /* Header 2 */
-            font-family: "Roboto", sans-serif;
+            font-family: Roboto;
             font-size: 36px;
             font-weight: 700;
             line-height: 1.11em;
             /* 111.111% */
-            letter-spacing: 0.045em;
+            letter-spacing: 0.02em;
             text-transform: capitalize;
     }
     
@@ -117,8 +117,7 @@
             text-align: center;
         
             /* Header 2 */
-            font-family: "Roboto",
-                sans-serif;
+            font-family: Roboto;
             font-size: 36px;
             font-weight: 700;
             line-height: 1.11em;
@@ -134,8 +133,7 @@
             text-align: center;
         
             /* Header 3 */
-            font-family:"Roboto",
-                sans-serif;
+            font-family:Roboto;
             font-size: 20px;
             font-weight: 500;
             line-height: 1.2em;
@@ -143,12 +141,11 @@
             letter-spacing: 0.02em;
     }
     .teammember-position {
-            color: #434455;
+            color: var(--mytextcolor-color);
             text-align: center;
         
             /* Body */
-            font-family: "Roboto",
-                sans-serif;
+            font-family: Roboto; 
             font-size: 16px;
             font-weight: 400;
             line-height: 1.5em;
@@ -157,35 +154,33 @@
     }
     /* Styles for Footer*/
   .footer-style {
-    background: #2e2f42;
+    background: #2E2F42;
   }  
   .logo-style {
-      color: #4d5ae5;
+      color: #4D5AE5;
       font-family: "Raleway", sans-serif;
       font-size: 18px;
       font-weight: 800;
-      line-height: 1.17em;
+      line-height: 1.31em;
       letter-spacing: 0.03em;
       text-transform: uppercase;
   }
 
   .inside-logo {
-      color: #2e2f42;
+      color: #F4F4FD;
   }
 
   .link {
       text-decoration: none;
   }
   .footer-paragraph {
-        color: #f4f4fd;
+        color: #F4F4FD;
     
         /* Body */
-        font-family:"Roboto",
-            sans-serif;
-        font-size: 16px;
+        font-family:Roboto;
+        font-size: 12px;
         font-weight: 400;
-        line-height: 1.5em;
-        /* 150% */
-        letter-spacing: 0.02em;
+        line-height: 1em;
+        letter-spacing: 0.04em;
   }
 
