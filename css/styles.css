@@ -16,7 +16,7 @@
         color: #2e2f42;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
-        font-weight: 500;
+        font-weight: 800;
         line-height: 1.5em;
         letter-spacing: 0.02em;
 }
@@ -26,7 +26,7 @@
 
 .address-style {
         color: var(--mytextcolor-color);
-        background-color: #FFFFFF;
+        background-color: var(--mybackground-color);
     
         /* Body */
         font-family: "Roboto", sans-serif;
