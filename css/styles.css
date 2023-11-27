@@ -25,7 +25,7 @@
 }
 
 .address-style {
-        color: #434455;
+        color: var(--mytextcolor-color);
         background-color: #FFFFFF;
     
         /* Body */
@@ -37,9 +37,6 @@
         letter-spacing: 0.02em;
 }
 
-.link {
-    text-decoration: none;
-}
 .address-style .contact-color {
      color: var(--mynavyblue-color);
 }
@@ -49,7 +46,7 @@
 }
 
 .list .contact-color:focus {
-    color: #31D0AA;
+    color: #404bbf;
 }
 .list .contact-color:active {
     color: #E7E0FC;
@@ -96,7 +93,7 @@
     }
     /*This is Section 2*/
     .second-section-header {
-        color: #2e2f42;
+        color: var(--mynavyblue-color);
         
             /* Header 3 */
             font-family: "Roboto", sans-serif;
@@ -107,7 +104,7 @@
             letter-spacing: 0.02em;
     }
     .second-section-paragraph {
-        color: #434455;
+        color: var(--mytextcolor-color);
         
             /* Body */
             font-family: "Roboto", sans-serif;
@@ -119,7 +116,7 @@
     }
     /* This is section 3*/
     .third-section-header {
-        color: #2e2f42;
+        color: var(--mynavyblue-color);
 
         
             /* Header 2 */
@@ -138,7 +135,7 @@
         background: #F4F4FD;
     }
     .fourth-section-header {
-            color: #2e2f42;
+            color: var(--mynavyblue-color);
         
             /* Header 3*/
             font-family: "Roboto", sans-serif;
