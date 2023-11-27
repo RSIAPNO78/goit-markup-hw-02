@@ -26,6 +26,7 @@
 
 .address-style {
         color: #434455;
+        background-color: #FFFFFF;
     
         /* Body */
         font-family: "Roboto", sans-serif;
@@ -35,8 +36,12 @@
         line-height: 1.5em;
         letter-spacing: 0.02em;
 }
+
+.link {
+    text-decoration: none;
+}
 .address-style .contact-color {
-     color: var(--mytextcolor-color);
+     color: var(--mynavyblue-color);
 }
 
 .list .contact-color:hover {
@@ -50,7 +55,7 @@
     color: #E7E0FC;
 }
 
-/*This is Section 1*/
+/*This is Section Hero*/
 .first-section-header {
        color: #ffffff;
        
@@ -81,6 +86,9 @@
  }      
 .first-section .first-section-button:hover {
     color: #404BBF;
+}
+.first-section .first-section-button:focus {
+    color: #404BBF;
 }         
    
 .first-section-button {
@@ -91,7 +99,7 @@
         color: #2e2f42;
         
             /* Header 3 */
-            font-family: Roboto;
+            font-family: "Roboto", sans-serif;
             font-size: 20px;
             font-weight: 500;
             line-height: 1.2em;
@@ -102,7 +110,7 @@
         color: #434455;
         
             /* Body */
-            font-family: Roboto;
+            font-family: "Roboto", sans-serif;
             font-size: 16px;
             font-weight: 400;
             line-height: 1.5em;
@@ -115,7 +123,7 @@
 
         
             /* Header 2 */
-            font-family: Roboto;
+            font-family: "Roboto", sans-serif;
             font-size: 36px;
             font-weight: 700;
             line-height: 1.11em;
@@ -133,7 +141,7 @@
             color: #2e2f42;
         
             /* Header 3*/
-            font-family: Roboto;
+            font-family: "Roboto", sans-serif;
             font-size: 36px;
             font-weight: 700;
             line-height: 1.11em;
@@ -149,7 +157,7 @@
         color: #2e2f42;
         
             /* Header 3 */
-            font-family: Roboto;
+            font-family: "Roboto", sans-serif;
             font-size: 20px;
             font-style: normal;
             font-weight: 500;
@@ -162,7 +170,7 @@
            
         
             /* Body */
-            font-family: Roboto; 
+            font-family: "Roboto", sans-serif; 
             font-size: 16px;
             font-weight: 400;
             line-height: 1.5em;
@@ -193,7 +201,7 @@
        color: #F4F4FD;
     
         /* Body */
-        font-family:Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.5em;
