@@ -1,19 +1,20 @@
 :root {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     --mytextcolor-color: #434455;
     --mynavyblue-color: #2e2f42;
 }
 .logo-style {
         color:  #4d5ae5;
-        font-family: 'Raleway', sans-serif ;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.17em;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 .inside-logo {
         color: #2e2f42;
-        font-family: 'Raleway', sans-serif;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 500;
         line-height: 1.5em;
@@ -24,12 +25,13 @@
 }
 
 .address-style {
-        color: var(--mytextcolor-color);
+        color: #434455;
     
         /* Body */
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
-        font-weight: 400;
+        font-style: normal;
+        font-weight: 500;
         line-height: 1.5em;
         letter-spacing: 0.02em;
 }
@@ -53,11 +55,12 @@
        color: #ffffff;
        
         /* Header 1 */
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07em;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 .first-section {
     background-color: var(--mynavyblue-color);
@@ -66,7 +69,7 @@
         color: #ffffff;
     
         /* Button Text */
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5em;
@@ -85,7 +88,7 @@
     }
     /*This is Section 2*/
     .second-section-header {
-        color: var(--mybackground-color);
+        color: #2e2f42;
         
             /* Header 3 */
             font-family: Roboto;
@@ -96,7 +99,7 @@
             letter-spacing: 0.02em;
     }
     .second-section-paragraph {
-        color: var(--mytextcolor-color);
+        color: #434455;
         
             /* Body */
             font-family: Roboto;
@@ -108,7 +111,7 @@
     }
     /* This is section 3*/
     .third-section-header {
-        color: var(--mybackground-color);
+        color: #2e2f42;
 
         
             /* Header 2 */
@@ -118,6 +121,8 @@
             line-height: 1.11em;
             /* 111.111% */
             letter-spacing: 0.02em;
+            text-align: center;
+            text-transform: capitalize;
     }
     
     /*This is Section 4 */
@@ -125,7 +130,7 @@
         background: #F4F4FD;
     }
     .fourth-section-header {
-            color: var(--mybackground-color);
+            color: #2e2f42;
         
             /* Header 3*/
             font-family: Roboto;
@@ -134,6 +139,8 @@
             line-height: 1.11em;
             /* 111.111% */
             letter-spacing: 0.02em;
+            text-transform: capitalize;
+            text-align: center;
     }
     .teammember-bgcolor {
         background-color: #FFFFFF;
@@ -146,12 +153,12 @@
             font-size: 20px;
             font-style: normal;
             font-weight: 500;
-            line-height: 24px;
+            line-height: 1.2em;
             /* 120% */
-            letter-spacing: 0.4px;
+            letter-spacing: 0.02em;
     }
     .teammember-position {
-            color: var(--mytextcolor-color);
+            color: #434455;
            
         
             /* Body */
