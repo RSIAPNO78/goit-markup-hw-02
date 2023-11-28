@@ -29,8 +29,10 @@ body {
 .link {
         text-decoration: none;
 }
-.liststyle .list {
+.list .link-style {
     color: var(--mynavyblue-color);
+}
+.liststyle .list {
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.02em;
