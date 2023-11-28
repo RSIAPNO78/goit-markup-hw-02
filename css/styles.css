@@ -19,7 +19,7 @@ body {
         text-transform: uppercase;
 }
 .inside-logo {
-        color: #2e2f42;
+        color: var(--mynavyblue-color);
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 800;
@@ -97,10 +97,10 @@ body {
     background-color: #4D5AE5;
  }      
 .first-section .first-section-button:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 .first-section .first-section-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }         
    
 .first-section-button {
@@ -133,7 +133,6 @@ body {
     .third-section-header {
         color: var(--mynavyblue-color);
 
-        
             /* Header 2 */
             font-family: "Roboto", sans-serif;
             font-size: 36px;
@@ -146,7 +145,7 @@ body {
     }
     
     /*This is Section 4 */
-    .fourth-section-header {
+    .fourth-section {
         background-color: #F4F4FD;
     }
     .fourth-section-header {
