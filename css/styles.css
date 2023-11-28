@@ -1,8 +1,14 @@
 :root {
-    background-color: #FFFFFF;
+    --background-color: #FFFFFF;
     --mytextcolor-color: #434455;
     --mynavyblue-color: #2e2f42;
 }
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--mytextcolor-color);
+    background-color: var(--background-color);
+}
+
 .logo-style {
         color:  #4d5ae5;
         font-family: "Raleway", sans-serif;
@@ -23,6 +29,15 @@
 .link {
         text-decoration: none;
 }
+.liststyle .list {
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: var(--mynavyblue-color);
+}
+.link-style {
+    text-decoration: none;
+}
 
 .address-style {
         color: var(--mytextcolor-color);
@@ -41,15 +56,15 @@
      color: var(--mynavyblue-color);
 }
 
-.list .contact-color:hover {
+.list .contact-color:hover, .link-style:hover {
     color: #404bbf;
 }
 
-.list .contact-color:focus {
+.list .contact-color:focus, .link-style:focus {
     color: #404bbf;
 }
-.list .contact-color:active {
-    color: #E7E0FC;
+.list .contact-color:active, .link-style:active {
+    color: #31D0AA;
 }
 
 /*This is Section Hero*/
@@ -132,7 +147,7 @@
     
     /*This is Section 4 */
     .fourth-section-header {
-        background: #F4F4FD;
+        background-color: #F4F4FD;
     }
     .fourth-section-header {
             color: var(--mynavyblue-color);
