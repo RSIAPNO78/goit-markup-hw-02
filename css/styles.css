@@ -224,3 +224,25 @@ body {
     background-color: var(--mynavyblue-color);
   }
 
+.pagelist .page-style-link {
+        border-radius: 4px;
+        border: 1px solid var(--CORNFLOWER, #E7E9FC);
+        background: var(--CLOUD, #F4F4FD);
+        display: flex;
+        padding: 12px 24px;
+        align-items: flex-start;
+}
+.pagelist .pagelist-link {
+        color: var(--WHITE, #FFF);
+        text-align: center;
+        background-color: #404BBF;
+    
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5em;
+        /* 150% */
+        letter-spacing: 0.04em;
+}
