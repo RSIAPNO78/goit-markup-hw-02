@@ -281,6 +281,15 @@
      padding: 12px 24px;
      align-items: flex-start;
  }
+ .filter-section-button:hover {
+    color:#404BBF;
+ }
+ .filter-section-button:hover {
+    color:#404BBF;
+ }
+ .filter-section-button {
+    cursor: pointer;
+ }
 
  /*Filter buttons*/
  .list .filter-section {
@@ -298,11 +307,21 @@
  }
 
  .filter-section-link {
-     background-color: #F4F4FD
+     background-color: var(--cloud);
+ }
+ .list .filter-section-link:hover {
+    color:#FFFFFF;
+ }
+ .list .filter-section-link:focus {
+    color:#FFFFFF;
+ }
+ .filter-section-link {
+    list-style: none;
  }
 
+
  .list .row1-card {
-     color: #2e2f42;
+     color: var(--mynavyblue-color);
 
      /* Header 3 */
      font-family: "Roboto", sans-serif;
@@ -326,5 +345,10 @@
      /* 150% */
      letter-spacing: 0.02em;
  }
-
+.row-one .row1-card {
+    list-style: none;
+}
+.row-one .row1-card {
+    text-decoration: none;
+}
  
