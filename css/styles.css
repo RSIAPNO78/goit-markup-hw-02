@@ -278,13 +278,13 @@
      background-color: #404BBF;
  }
  
-.filter-section-button:hover {
+.filter-section-link:hover {
     background-color:#404BBF;
  }
- .filter-section-button:hover {
+ .filter-section-link:focus {
     background-color:#404BBF;
  }
- .filter-section-button {
+ .filter-section-link {
     cursor: pointer;
  }
 
@@ -334,7 +334,7 @@
      color: var(--mytextcolor-color);
 
      /* Body */
-     font-family: Roboto;
+     font-family: "Roboto", sans-serif;
      font-size: 16px;
      font-style: normal;
      font-weight: 400;
