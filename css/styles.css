@@ -261,7 +261,7 @@
  /* Portfolio Page*/
  /*Filter "All" button*/
  .filter-section-button {
-     color: var(--white);
+     color: var(--irish);
 
      /*First Section Filter Buttons*/
      font-family: "Roboto", sans-serif;
@@ -274,15 +274,15 @@
      text-align: center;
  }
 
- .filter-section-button {
+ .filter-section-link {
      background-color: #404BBF;
  }
  
- .list .filter-section-button:hover {
-    color:#404BBF;
+.filter-section-button:hover {
+    background-color:#404BBF;
  }
- .list .filter-section-button:hover {
-    color:#404BBF;
+ .filter-section-button:hover {
+    background-color:#404BBF;
  }
  .filter-section-button {
     cursor: pointer;
@@ -303,14 +303,14 @@
      letter-spacing: 0.04em;
  }
 
- .list .filter-section-link {
+ .filter-section-link {
      background-color: var(--cloud)
  }
- .list .filter-section-link:hover {
-    color:#FFFFFF;
+ .filter-section-link:hover {
+    color: #FFFFFF;
  }
- .list .filter-section-link:focus {
-    color:#FFFFFF;
+ .filter-section-link:focus {
+    color: #FFFFFF;
  }
  .filter-section-link {
     list-style: none;
