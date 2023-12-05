@@ -294,7 +294,7 @@
      text-align: center;
 
      /* Button Text */
-     font-family: Roboto;
+     font-family: "Roboto", sans-serif;
      font-size: 16px;
      font-style: normal;
      font-weight: 500;
@@ -317,7 +317,7 @@
  }
 
 
- .list .row1-card {
+ .card-features {
      color: var(--mynavyblue-color);
 
      /* Header 3 */
@@ -330,7 +330,7 @@
      letter-spacing: 0.02em;
  }
 
- .row1-card .row1-card-name {
+.card-name {
      color: var(--mytextcolor-color);
 
      /* Body */
