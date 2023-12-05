@@ -281,10 +281,11 @@
      padding: 12px 24px;
      align-items: flex-start;
  }
- .filter-section-button:hover {
+ 
+ .list .filter-section-button:hover {
     color:#404BBF;
  }
- .filter-section-button:hover {
+ .list .filter-section-button:hover {
     color:#404BBF;
  }
  .filter-section-button {
@@ -292,7 +293,7 @@
  }
 
  /*Filter buttons*/
- .list .filter-section {
+ .list .filter-section-link {
      color: var(--irish);
      text-align: center;
 
@@ -301,13 +302,13 @@
      font-size: 16px;
      font-style: normal;
      font-weight: 500;
-     line-height: 24px;
+     line-height: 1.5em;
      /* 150% */
-     letter-spacing: 0.64px;
+     letter-spacing: 0.04em;
  }
 
- .filter-section-link {
-     background-color: var(--cloud);
+ .list .filter-section-link {
+     background-color: var(--cloud)
  }
  .list .filter-section-link:hover {
     color:#FFFFFF;
@@ -348,7 +349,6 @@
 .row-one .row1-card {
     list-style: none;
 }
-.row-one .row1-card {
+.list .row1-card {
     text-decoration: none;
 }
- 
