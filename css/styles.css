@@ -276,10 +276,6 @@
 
  .filter-section-button {
      background-color: #404BBF;
-     border-radius: 4px;
-     display: flex;
-     padding: 12px 24px;
-     align-items: flex-start;
  }
  
  .list .filter-section-button:hover {
